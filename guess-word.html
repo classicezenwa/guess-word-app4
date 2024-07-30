@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>guess-word-app</title>
+    <script defer src="guess-word.js"></script>
+    <link rel="stylesheet" href="guess-word.css" />
+    <link rel="stylesheet" href="guess-word-queries.css" />
+  </head>
+  <body>
+    <div class="guess-app-container">
+      <div class="angle-bar angle-bar-top-left">
+        Guess <br />
+        Right
+      </div>
+      <div class="angle-bar angle-bar-top-right">
+        Guess <br />
+        Right
+      </div>
+      <div class="angle-bar angle-bar-bottom-left">
+        Guess <br />
+        Right
+      </div>
+      <div class="angle-bar angle-bar-bottom-right">
+        Guess <br />
+        Right
+      </div>
+      <div class="game-intro">
+        <div class="welcome-words">
+          <p>WELCOME</p>
+          <p>Guess-Word-App</p>
+        </div>
+        <button class="play-button">Play</button>
+      </div>
+
+      <div class="instruction-container slide-out-box">
+        <div class="instructions">
+          <ul>
+            <li>Guess the word correctly.</li>
+            <li>You have 20 words to guess correctly.</li>
+            <li>You have 200 seconds to guess them correctly.</li>
+            <li>You have 3 lifelines to help you.</li>
+            <li>Each lifeline deducts 10 seconds from your available time.</li>
+            <li>Goodluck!</li>
+          </ul>
+        </div>
+        <button class="start-button">Start</button>
+      </div>
+
+      <div class="guess-app-play-container hide-box">
+        <div class="timer-lifeline-container">
+          <div class="timer">03:20</div>
+          <button class="life-line">Lifeline: (3 trials)</button>
+        </div>
+        <div class="play-contents">
+          <div class="play-container-hint">
+            <!-- <p>
+              United States of America is to Washington DC while India is to ...
+            </p> -->
+          </div>
+          <div class="input-field">
+            <!-- <input class="input-field-individual" type="text" maxlength="1" />
+            <input class="input-field-individual" type="text" maxlength="1" />
+            <input class="input-field-individual" type="text" maxlength="1" />
+            <input class="input-field-individual" type="text" maxlength="1" />
+            <input class="input-field-individual" type="text" maxlength="1" />
+            <input class="input-field-individual" type="text" maxlength="1" />
+            <input class="input-field-individual" type="text" maxlength="1" /> -->
+          </div>
+        </div>
+        <div class="progress-div">
+          <div class="progress-info-correct">Correct!</div>
+          <div class="progress-info-incorrect">Incorrect!</div>
+          <button class="next-button slide-out-box">Next</button>
+        </div>
+      </div>
+
+      <div class="lifeline-box slide-out-box">
+        <!-- Au______a
+        <button class="lifeline-button-clear">Ok</button> -->
+      </div>
+
+      <div class="game-end-container slide-out-box"></div>
+      <div class="game-finish-container slide-out-box"></div>
+    </div>
+  </body>
+</html>

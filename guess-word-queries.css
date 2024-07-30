@@ -1,0 +1,263 @@
+@media (max-width: 41em) {
+  .guess-app-container {
+    width: 35rem;
+    height: 25rem;
+  }
+
+  .game-intro,
+  .instruction-container,
+  .guess-app-play-container,
+  .game-end-container,
+  .game-finish-container {
+    width: 29rem;
+    height: 22rem;
+  }
+
+  .play-container-hint {
+    height: 5rem;
+  }
+}
+
+@media (max-width: 36em) {
+  .guess-app-container {
+    margin: 1.5% auto;
+    width: 30rem;
+    height: 27rem;
+  }
+
+  .game-intro,
+  .instruction-container,
+  .guess-app-play-container,
+  .game-end-container,
+  .game-finish-container {
+    width: 25rem;
+    height: 23rem;
+  }
+
+  .guess-app-play-container {
+    grid-template-rows: 2rem 2fr 3rem;
+    justify-content: center;
+  }
+  .play-container-hint {
+    height: 5rem;
+  }
+
+  .play-contents {
+    height: 9rem;
+  }
+
+  .timer-lifeline-container {
+    width: 95%;
+  }
+
+  .play-container-hint,
+  .input-field {
+    width: 95%;
+  }
+
+  .play-container-hint {
+    font-size: 1.2rem;
+  }
+
+  .input-field {
+    gap: 0.35rem;
+    height: 10rem;
+  }
+
+  .input-field-individual {
+    border-radius: 0.4rem;
+    width: 1.8rem;
+    height: 2rem;
+    font-size: 1rem;
+  }
+
+  .game-end-paragraph,
+  .game-finish-paragraph {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 31em) {
+  .guess-app-container {
+    margin: 1% auto;
+    width: 25rem;
+    height: 27rem;
+    grid-template-rows: 2rem 2fr 4rem;
+  }
+
+  .game-intro,
+  .instruction-container,
+  .guess-app-play-container,
+  .game-end-container,
+  .game-finish-container {
+    width: 20rem;
+    height: 23.2rem;
+  }
+  .play-container-hint {
+    height: 5rem;
+  }
+
+  .play-contents {
+    gap: 2rem;
+    height: 11rem;
+  }
+
+  .timer-lifeline-container {
+    width: 100%;
+  }
+
+  .play-container-hint,
+  .input-field {
+    width: 90%;
+  }
+
+  .play-container-hint {
+    font-size: 1.1rem;
+  }
+
+  .input-field {
+    gap: 0.25rem;
+    height: 10rem;
+  }
+
+  .input-field-individual {
+    border-radius: 0.4rem;
+    width: 1.6rem;
+    height: 1.8rem;
+    font-size: 1rem;
+  }
+
+  .game-end-paragraph,
+  .game-finish-paragraph {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 26em) {
+  .guess-app-container {
+    margin: -1%;
+    width: 20rem;
+    height: 27.5rem;
+    grid-template-rows: 2rem 2fr 4rem;
+  }
+
+  .game-intro,
+  .instruction-container,
+  .guess-app-play-container,
+  .game-end-container,
+  .game-finish-container {
+    width: 16rem;
+    height: 23.2rem;
+  }
+
+  .welcome-words p:nth-child(2) {
+    font-size: 1.8rem;
+    color: brown;
+    font-weight: 900;
+  }
+
+  .instruction ul {
+    padding: 0.4rem;
+  }
+
+  .instructions ul li {
+    padding: 0.2rem;
+    margin-bottom: 0.6rem;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+  }
+
+  .start-button {
+    width: 5rem;
+    height: 2rem;
+    border-radius: 1rem;
+
+    font-size: 1rem;
+
+    outline-offset: 1px;
+  }
+
+  .timer-lifeline-container {
+    height: 3rem;
+  }
+
+  .timer {
+    width: 3rem;
+    height: 3rem;
+    color: white;
+
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+
+  .play-container-hint {
+    height: 5rem;
+  }
+
+  .play-contents {
+    gap: 2.3rem;
+    height: 11rem;
+  }
+
+  .timer-lifeline-container {
+    width: 100%;
+  }
+
+  .play-container-hint,
+  .input-field {
+    width: 100%;
+  }
+
+  .play-container-hint {
+    font-size: 1rem;
+  }
+
+  .input-field {
+    gap: 0.2rem;
+    height: 10rem;
+  }
+
+  .progress-info-correct {
+    padding: 0.5rem 1.8rem;
+    left: 7rem;
+  }
+
+  .progress-info-incorrect {
+    padding: 0.5rem 1.8rem;
+    left: 4rem;
+  }
+
+  .input-field-individual {
+    border-radius: 0.4rem;
+    width: 1.4rem;
+    height: 2rem;
+    font-size: 1rem;
+  }
+
+  .game-end-paragraph,
+  .game-finish-paragraph {
+    font-size: 1rem;
+  }
+
+  .lifeline-box {
+    gap: 1.7rem;
+
+    padding: 0.6rem;
+    letter-spacing: 0.5rem;
+
+    width: 12rem;
+    height: 7rem;
+
+    font-size: 1rem;
+    border-radius: 1rem;
+  }
+
+  .lifeline-button-clear {
+    width: 4rem;
+    height: 2rem;
+    border-radius: 0.6rem;
+    margin-right: -1rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+}
